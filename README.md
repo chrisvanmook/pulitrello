@@ -10,15 +10,14 @@ Please make sure you have the following installed globally:
 - [npm](https://www.npmjs.com/)
 - [bower](http://bower.io/)
 
-## How to install
-Make sure you have the dependencies described above installed:
 ### NodeJS:
 Go to [nodejs.org](https://nodejs.org/) and download & install NodeJS on your System.
 
 ### Bower
 Run `npm install -g bower` to install bower globally on your system
 
-If all the dependencies are installed, please clone this repository. `cd` to the root folder and run `npm install`. This will install the npm packages and bower dependencies.
+## How to install
+Make sure you have the dependencies described above installed. After this, please clone this repository. `cd` to the root folder and run `npm install`. This will install the npm packages and bower dependencies.
 
 ## Start development environment
 Run `gulp serve` (or alternatively `npm start`) to start the server with your generated webapp.
