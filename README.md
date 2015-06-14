@@ -1,6 +1,6 @@
 # PuliTrello
 
-[![Build Status](https://travis-ci.org/chrisvanmook/pulitrello.svg?branch=master)](https://travis-ci.org/chrisvanmook/pulitrello) [![dependencies](https://david-dm.org/chrisvanmook/pulitrello.svg)](https://david-dm.org/chrisvanmook/pulitrello.svg)
+[![Build Status](https://travis-ci.org/chrisvanmook/pulitrello.svg?branch=master)](https://travis-ci.org/chrisvanmook/pulitrello) [![devDependencies](https://david-dm.org/chrisvanmook/pulitrello/dev-status.svg)](https://david-dm.org/chrisvanmook/pulitrello#info=devDependencies&view=table)
 
 A simple trello clone for pulilab assignment, made with angular, firebase and bootstrap.
 
