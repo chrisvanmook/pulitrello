@@ -3,4 +3,5 @@
 /node_modules
 /temp
 /app/css
+/app/bower_components
 /dist
