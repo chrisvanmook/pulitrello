@@ -24,7 +24,7 @@
   "scripts": {
     "postinstall": "bower install",
     "start": "gulp:serve",
-    "test": "gulp serve:dist"
+    "test": "gulp build"
   },
   "devDependencies": {
     "browser-sync": "^2.7.9",
