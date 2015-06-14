@@ -1,0 +1,15 @@
+
+<div class="trello__list" ng-repeat="list in lists">
+  <div ng-show="!list.isEdit">
+    <h3 ng-click="listCtrl.edit(lists, list);">{{list.title}}</h3>
+    <a class="trello__close" ng-click="listCtrl.remove(lists, list);"></a>
+  </div>
+  <div ng-show="list.isEdit">
+    <input class="trello__input" type="text" ng-model="list.title" ng-keyup="($event.which === 13)?listCtrl.save(lists, list):0">
+    <a class="trello__lin btn btn-primary" ng-click="listCtrl.save(lists, list)">Save</a>
+    <a class="trello__link" ng-click="listCtrl.cancel(lists)">Cancel</a>
+  </div>
+  <card class="trello__card-holder" board-id="boardId" list-id="list.$id" list-edit="list.isEdit"></card>
+
+</div>
+<a class="trello__list btn btn-primary" ng-click="listCtrl.add(lists);">Add list</a>

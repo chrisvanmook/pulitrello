@@ -1,0 +1,8 @@
+<div class="container">
+  <h1>Boards</h1>
+  <div class="row trello">
+    <ul ng-repeat="board in homeCtrl.boards track by $index" class="list-unstyled trello__boards">
+      <li class="col-md-3"><a class="btn btn-primary  btn-lg" ui-sref="board({id: board.$id})">{{board.title}}</a></li>
+    </ul>
+  </div>
+</div>
